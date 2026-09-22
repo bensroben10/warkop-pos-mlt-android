@@ -1,0 +1,10 @@
+WARKOP POS MLT — BUILD APK VIA GITHUB ACTIONS
+
+1. Buat repository GitHub baru untuk project MLT.
+2. Upload seluruh isi folder project ini sehingga folder .github/workflows ikut terupload.
+3. Untuk debug: Actions -> Build Warkop POS MLT APK -> Run workflow.
+4. Untuk release: siapkan 4 Repository Secrets: ANDROID_KEYSTORE_BASE64, ANDROID_KEYSTORE_PASSWORD, ANDROID_KEY_ALIAS, ANDROID_KEY_PASSWORD.
+5. Jalankan Actions -> Build Warkop POS MLT Release APK.
+6. Download artifact WARKOP_POS_MLT-release-apk.
+
+Catatan: URL website di MainActivity.java harus menunjuk ke URL Netlify MLT final sebelum build APK release.

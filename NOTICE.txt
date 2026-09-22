@@ -1,0 +1,3 @@
+Warkop POS MLT Android wrapper
+
+This project is an independently prepared Android WebView wrapper for the Warkop POS Multi-Cabang website. It implements native file chooser / camera handling so HTML file uploads can work inside the Android WebView.
