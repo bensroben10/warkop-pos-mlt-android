@@ -42,7 +42,7 @@ import java.util.Locale;
 
 public class MainActivity extends Activity {
 
-    private static final String WEBSITE_URL = "https://warkop-pos-multi.netlify.app/";
+    private static final String WEBSITE_URL = "https://warkop-pos-mlt.krianapps.biz.id/";
     private static final int CAMERA_PERMISSION_REQUEST = 1001;
     private static final int NOTIFICATION_PERMISSION_REQUEST = 1002;
 
